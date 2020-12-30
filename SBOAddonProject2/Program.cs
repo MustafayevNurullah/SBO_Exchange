@@ -91,7 +91,6 @@ namespace SBOAddonProject2
             switch (EventType)
             {
                 case SAPbouiCOM.BoAppEventTypes.aet_ShutDown:
-                    //Exit Add-On
                     System.Windows.Forms.Application.Exit();
                     break;
                 case SAPbouiCOM.BoAppEventTypes.aet_CompanyChanged:
